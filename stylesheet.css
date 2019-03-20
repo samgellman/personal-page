@@ -79,12 +79,32 @@
     padding: 10px;
 }
 
-.thumbnail-image:hover {
+
+
+.icon-topper {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    font-size: 20pt;
+    opacity: 0;
+    color: #eaeaea;
+}
+
+
+.image-topper:hover .thumbnail-image {
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: black;
-    opacity: .5;
+    background-color:#111111;    
+    opacity: .6;
 }
+
+.image-topper:hover .icon-topper {
+    opacity: 1;
+}
+
+
+
+
 
 #main-images {
     padding: 20px;
@@ -99,8 +119,10 @@
 
 .rollover-photo {
     margin-left: -30px;
-
 }
+
+
+
 
 
 /* ABOUT ME PAGE */
@@ -145,6 +167,9 @@
     padding-right: 5px;
     padding-top: 20px;
 }
+.square-photo-link {
+
+}
 
 .image-box {
     max-height: 200px;
@@ -163,12 +188,17 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: white;
-}
-
-.text-box:hover {
-    color: rgb(47, 129, 129);
     text-decoration: none;
 }
+
+.square-photo-link:hover .text-box {
+    color: rgb(47, 129, 129);
+}
+
+.square-photo-link:hover {
+    text-decoration: none;
+}
+
 
 .square-image:hover {
     background-size: cover;
