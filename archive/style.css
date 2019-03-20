@@ -1,0 +1,58 @@
+/* general */
+
+body {
+    font-family: "Open Sans", serif; 
+
+    
+    text-align: center;
+ 
+}
+
+#main-section {
+    height: 100vh;
+}
+
+.main-image {
+    width: 800px;
+
+}
+
+.slideshow {  margin: auto }
+
+#top-third {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", serif; 
+    font-size: 35pt;
+}
+
+#middle-third {
+    justify-content: center !important;
+    justify-items: center !important;
+}
+
+#bottom-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hovered-image {
+    width: 800px;
+    padding-left: 30%;  
+
+}
+
+#button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    border-radius: 50px !important;
+}
+
+#enter-button {
+    
+}
